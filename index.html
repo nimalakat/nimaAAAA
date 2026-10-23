@@ -1,0 +1,385 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>YUNG LEAN — Sad Boys · Cloud Rap</title>
+  <meta name="description" content="Официальный сайт Yung Lean (Jonatan Leandoer Håstad) — шведского рэпера, пионера cloud rap и основателя Sad Boys." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Unbounded:wght@400;500;600;700;800;900&family=Inter:wght@300;400;500;600&family=JetBrains+Mono:wght@300;400;500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="grain" aria-hidden="true"></div>
+  <canvas id="sakuraCanvas" aria-hidden="true"></canvas>
+
+  <!-- ============ NAV ============ -->
+  <header class="nav" id="nav">
+    <a href="#home" class="logo">Y<span>L</span><sup class="logo-mark">❀</sup></a>
+    <nav class="nav-links" aria-label="Основная навигация">
+      <a href="#about">About</a>
+      <a href="#music">Music</a>
+      <a href="#videos">Videos</a>
+      <a href="#shows">Shows</a>
+      <a href="#gallery">Gallery</a>
+      <a href="#contact">Contact</a>
+    </nav>
+    <button class="burger" aria-label="Меню" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+  </header>
+
+  <!-- ============ HERO ============ -->
+  <section class="hero" id="home">
+    <div class="hero-bg" style="background-image:url('https://upload.wikimedia.org/wikipedia/commons/8/8a/Yung_Lean_at_the_Vogue_March_31st%2C_2016_%2825973856650%29_%28cropped%29.jpg')"></div>
+    <div class="sakura-decor sakura-decor-1" aria-hidden="true"></div>
+    <div class="sakura-decor sakura-decor-2" aria-hidden="true"></div>
+    <div class="vignette" aria-hidden="true"></div>
+    <div class="scanlines" aria-hidden="true"></div>
+
+    <div class="hero-content">
+      <p class="eyebrow">SAD BOYS · STOCKHOLM · SINCE 2013</p>
+      <h1 class="hero-title glitch" data-text="YUNG LEAN">YUNG<br/>LEAN</h1>
+      <p class="hero-sub">
+        Jonatan Leandoer Håstad — шведский рэпер, певец и продюсер. Один из пионеров
+        cloud rap, основатель Sad Boys. От вирусного «Ginseng Strip 2002» до
+        экспериментального «Starz» и «Psykos».
+      </p>
+      <div class="hero-cta">
+        <a href="#music" class="btn btn-primary">LISTEN</a>
+        <a href="#shows" class="btn btn-ghost">TICKETS</a>
+        <button class="btn btn-outline" data-scroll="#contact">SUBSCRIBE</button>
+      </div>
+      <div class="hero-socials">
+        <a href="#" aria-label="Instagram">Instagram</a>
+        <a href="#" aria-label="YouTube">YouTube</a>
+        <a href="#" aria-label="Spotify">Spotify</a>
+        <a href="#" aria-label="SoundCloud">SoundCloud</a>
+        <a href="#" aria-label="X">X</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ ABOUT ============ -->
+  <section class="section section-alt" id="about">
+    <div class="container">
+      <p class="section-tag"></p>
+      <h2 class="section-title">The Boy in the Snow</h2>
+
+      <div class="about-grid">
+        <div class="about-text">
+          <p>Jonatan Aron Leandoer Håstad родился 18 июля 1996 года в Стокгольме. Раннее детство провёл в Беларуси, затем вернулся в Швецию. Вырос в районе Сёдермальм. В 2013 году, в возрасте 16 лет, выпустил дебютный микстейп <em>Unknown Death 2002</em> и трек <em>Ginseng Strip 2002</em>, который стал вирусным на YouTube и превратил его в интернет-феномен.</p>
+          <p>Вместе с продюсерами Yung Gud и Yung Sherman он сформировал коллектив <em>Sad Boys</em>, определивший звучание целого поколения — меланхоличный, отстранённый, наполненный ледяными синтезаторами и речитативом «на грани шёпота». Критики называют его одним из главных innovators cloud rap и пост-интернет-музыки.</p>
+          <p>За десятилетие карьеры Yung Lean прошёл путь от андеграундного мема до признанного артиста: альбомы <em>Unknown Memory</em> (2014), <em>Warlord</em> (2016), <em>Stranger</em> (2017), <em>Starz</em> (2020), совместный с Bladee <em>Psykos</em> (2024) и сольный <em>Jonatan</em> (2025).</p>
+
+          <h3>Ключевые вехи</h3>
+          <ul class="key-list">
+            <li><strong>2013 — Ginseng Strip 2002.</strong> Вирусный клип, начало эры Sad Boys.</li>
+            <li><strong>2014 — Unknown Memory.</strong> Дебютный студийный альбом.</li>
+            <li><strong>2016 — Warlord.</strong> Тур, расширение звучания, коллаборации.</li>
+            <li><strong>2020 — Starz.</strong> Альбом, закрепивший статус экспериментатора.</li>
+            <li><strong>2024 — Psykos (с Bladee).</strong> Совместный проект.</li>
+            <li><strong>2025 — Jonatan.</strong> Новый сольный альбом.</li>
+          </ul>
+
+          <h3>Sound</h3>
+          <p>Cloud rap, трэп, эмо-рэп, экспериментальная электроника. Характерные черты: воздушные синтезаторы, замедленные биты, autotune, меланхоличные тексты одиночества и отчуждения. Часто использует образы зимы, льда, снега — как метафору внутреннего состояния.</p>
+
+          <blockquote>
+            «I'm a sad boy, but I'm also a star».
+            <span class="quote-src">— Yung Lean</span>
+          </blockquote>
+        </div>
+
+        <div class="about-visual">
+          <div class="about-img" style="background-image:url('https://upload.wikimedia.org/wikipedia/commons/6/64/Yung_Lean%2C_Clout_Festival_2024_03.jpg')"></div>
+          <div class="glitch-card">
+            <span class="glitch-card-label">SAD BOYS</span>
+            <span class="glitch-card-sub">2001 · STOCKHOLM</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ MUSIC ============ -->
+  <section class="section" id="music">
+    <div class="container">
+      <p class="section-tag"></p>
+      <h2 class="section-title">Discography</h2>
+
+      <div class="player" id="player">
+        <div class="player-now">
+          <span class="player-label">NOW PLAYING</span>
+          <span class="player-track" id="playerTrack">Ginseng Strip 2002</span>
+          <span class="player-artist" id="playerArtist">Yung Lean — Lavender EP (2013)</span>
+        </div>
+        <div class="player-controls">
+          <button class="player-btn" id="playBtn" aria-label="Play">
+            <svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true"><path class="icon-play" d="M8 5v14l11-7z" fill="currentColor"/><path class="icon-pause" d="M6 5h4v14H6zM14 5h4v14h-4z" fill="currentColor" style="display:none"/></svg>
+          </button>
+          <span class="player-hint">YouTube stream · нажмите Play</span>
+        </div>
+        <div class="player-embed-wrap" id="playerEmbedWrap">
+          <iframe id="playerEmbed" src="" allow="autoplay; encrypted-media" allowfullscreen title="Audio player"></iframe>
+        </div>
+      </div>
+
+      <h3 class="subhead">Most Played</h3>
+      <ol class="popular-tracks" id="popularTracks">
+        <li data-video-id="vrQWhFysPKY" data-title="Ginseng Strip 2002" data-artist="Lavender EP"><span class="rank">01</span><span class="track-name">Ginseng Strip 2002</span><span class="track-album">Lavender EP</span><button class="track-play">▶</button></li>
+        <li data-video-id="tMgkt9jdjTU" data-title="Kyoto" data-artist="Unknown Memory"><span class="rank">02</span><span class="track-name">Kyoto</span><span class="track-album">Unknown Memory</span><button class="track-play">▶</button></li>
+        <li data-video-id="VamfnrmmAow" data-title="Violence + Pikachu" data-artist="Starz"><span class="rank">03</span><span class="track-name">Violence + Pikachu</span><span class="track-album">Starz</span><button class="track-play">▶</button></li>
+        <li data-video-id="q2AP3BzS5Yc" data-title="My Agenda" data-artist="Starz"><span class="rank">04</span><span class="track-name">My Agenda</span><span class="track-album">Starz</span><button class="track-play">▶</button></li>
+        <li data-video-id="Y3p5l6i6q7" data-title="Red Bottom Sky" data-artist="Stranger"><span class="rank">05</span><span class="track-name">Red Bottom Sky</span><span class="track-album">Stranger</span><button class="track-play">▶</button></li>
+      </ol>
+
+      <h3 class="subhead">Albums & Mixtapes</h3>
+      <div class="grid-albums" id="albumsGrid">
+        <article class="album">
+          <div class="album-cover" style="background-image:url('https://upload.wikimedia.org/wikipedia/commons/8/8a/Yung_Lean_at_the_Vogue_March_31st%2C_2016_%2825973856650%29_%28cropped%29.jpg')"><span class="cover-overlay">UNKNOWN DEATH 2002</span><span class="cover-year">2013</span></div>
+          <h4>Unknown Death 2002</h4><p class="album-meta">2013 · Mixtape</p>
+          <button class="album-expand" aria-expanded="false">Tracks <span>+</span></button>
+          <ul class="track-list">
+            <li data-video-id="vrQWhFysPKY" data-title="Ginseng Strip 2002" data-artist="Unknown Death 2002"><span>Ginseng Strip 2002</span><button class="track-play">▶</button></li>
+            <li data-video-id="tMgkt9jdjTU" data-title="Kyoto" data-artist="Unknown Death 2002"><span>Kyoto</span><button class="track-play">▶</button></li>
+          </ul>
+          <div class="album-links"><a href="#">Spotify</a><a href="#">Apple</a><a href="#">SoundCloud</a></div>
+        </article>
+
+        <article class="album">
+          <div class="album-cover" style="background-image:url('https://upload.wikimedia.org/wikipedia/commons/5/57/Yung_Lean_2018.png')"><span class="cover-overlay">UNKNOWN MEMORY</span><span class="cover-year">2014</span></div>
+          <h4>Unknown Memory</h4><p class="album-meta">2014 · Album</p>
+          <button class="album-expand" aria-expanded="false">Tracks <span>+</span></button>
+          <ul class="track-list">
+            <li data-video-id="tMgkt9jdjTU" data-title="Kyoto" data-artist="Unknown Memory"><span>Kyoto</span><button class="track-play">▶</button></li>
+            <li data-video-id="Y3p5l6i6q7" data-title="Red Bottom Sky" data-artist="Unknown Memory"><span>Red Bottom Sky</span><button class="track-play">▶</button></li>
+          </ul>
+          <div class="album-links"><a href="#">Spotify</a><a href="#">Apple</a><a href="#">SoundCloud</a></div>
+        </article>
+
+        <article class="album">
+          <div class="album-cover" style="background-image:url('https://upload.wikimedia.org/wikipedia/commons/6/64/Yung_Lean%2C_Clout_Festival_2024_03.jpg')"><span class="cover-overlay">WARLORD</span><span class="cover-year">2016</span></div>
+          <h4>Warlord</h4><p class="album-meta">2016 · Album</p>
+          <button class="album-expand" aria-expanded="false">Tracks <span>+</span></button>
+          <ul class="track-list">
+            <li data-video-id="Y3p5l6i6q7" data-title="Red Bottom Sky" data-artist="Warlord"><span>Red Bottom Sky</span><button class="track-play">▶</button></li>
+          </ul>
+          <div class="album-links"><a href="#">Spotify</a><a href="#">Apple</a><a href="#">SoundCloud</a></div>
+        </article>
+
+        <article class="album">
+          <div class="album-cover" style="background-image:url('https://upload.wikimedia.org/wikipedia/commons/8/8a/Yung_Lean_at_the_Vogue_March_31st%2C_2016_%2825973856650%29_%28cropped%29.jpg')"><span class="cover-overlay">STRANGER</span><span class="cover-year">2017</span></div>
+          <h4>Stranger</h4><p class="album-meta">2017 · Album</p>
+          <button class="album-expand" aria-expanded="false">Tracks <span>+</span></button>
+          <ul class="track-list">
+            <li data-video-id="Y3p5l6i6q7" data-title="Red Bottom Sky" data-artist="Stranger"><span>Red Bottom Sky</span><button class="track-play">▶</button></li>
+          </ul>
+          <div class="album-links"><a href="#">Spotify</a><a href="#">Apple</a><a href="#">SoundCloud</a></div>
+        </article>
+
+        <article class="album">
+          <div class="album-cover" style="background-image:url('https://upload.wikimedia.org/wikipedia/commons/5/57/Yung_Lean_2018.png')"><span class="cover-overlay">STARZ</span><span class="cover-year">2020</span></div>
+          <h4>Starz</h4><p class="album-meta">2020 · Album</p>
+          <button class="album-expand" aria-expanded="false">Tracks <span>+</span></button>
+          <ul class="track-list">
+            <li data-video-id="VamfnrmmAow" data-title="Violence + Pikachu" data-artist="Starz"><span>Violence + Pikachu</span><button class="track-play">▶</button></li>
+            <li data-video-id="q2AP3BzS5Yc"data-title="My Agenda" data-artist="Starz"><span>My Agenda</span><button class="track-play">▶</button></li>
+          </ul>
+          <div class="album-links"><a href="#">Spotify</a><a href="#">Apple</a><a href="#">SoundCloud</a></div>
+        </article>
+
+        <article class="album">
+          <div class="album-cover" style="background-image:url('https://upload.wikimedia.org/wikipedia/commons/6/64/Yung_Lean%2C_Clout_Festival_2024_03.jpg')"><span class="cover-overlay">JONATAN</span><span class="cover-year">2025</span></div>
+          <h4>Jonatan</h4><p class="album-meta">2025 · Album</p>
+          <button class="album-expand" aria-expanded="false">Tracks <span>+</span></button>
+          <ul class="track-list">
+            <li data-video-id="vrQWhFysPKY" data-title="Ginseng Strip 2002" data-artist="Jonatan"><span>Ginseng Strip 2002 (live)</span><button class="track-play">▶</button></li>
+          </ul>
+          <div class="album-links"><a href="#">Spotify</a><a href="#">Apple</a><a href="#">SoundCloud</a></div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ VIDEOS ============ -->
+  <section class="section section-alt" id="videos">
+    <div class="container">
+      <p class="section-tag"></p>
+      <h2 class="section-title">Visuals</h2>
+
+      <div class="grid-videos" id="videosGrid">
+        <article class="video" data-video-id="vrQWhFysPKY">
+          <div class="video-thumb" style="background-image:url('https://upload.wikimedia.org/wikipedia/commons/8/8a/Yung_Lean_at_the_Vogue_March_31st%2C_2016_%2825973856650%29_%28cropped%29.jpg')"><span class="play-badge">▶</span></div>
+          <h4>Ginseng Strip 2002</h4><p class="video-meta">Official · 2013</p>
+        </article>
+        <article class="video" data-video-id="tMgkt9jdjTU">
+          <div class="video-thumb" style="background-image:url('https://upload.wikimedia.org/wikipedia/commons/5/57/Yung_Lean_2018.png')"><span class="play-badge">▶</span></div>
+          <h4>Kyoto</h4><p class="video-meta">Official · 2013</p>
+        </article>
+        <article class="video" data-video-id="VamfnrmmAow">
+          <div class="video-thumb" style="background-image:url('https://upload.wikimedia.org/wikipedia/commons/6/64/Yung_Lean%2C_Clout_Festival_2024_03.jpg')"><span class="play-badge">▶</span></div>
+          <h4>Violence + Pikachu</h4><p class="video-meta">Official · 2020</p>
+        </article>
+        <article class="video" data-video-id="q2AP3BzS5Yc">
+          <div class="video-thumb" style="background-image:url('https://upload.wikimedia.org/wikipedia/commons/8/8a/Yung_Lean_at_the_Vogue_March_31st%2C_2016_%2825973856650%29_%28cropped%29.jpg')"><span class="play-badge">▶</span></div>
+          <h4>My Agenda</h4><p class="video-meta">Official · 2020</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ SHOWS ============ -->
+  <section class="section" id="shows">
+    <div class="container">
+      <p class="section-tag"></p>
+      <h2 class="section-title">Upcoming</h2>
+
+      <div class="shows-calendar" aria-label="Timeline">
+        <span class="cal-month">OCT 2026</span><span class="cal-month">NOV 2026</span><span class="cal-month">DEC 2026</span>
+        <div class="cal-track">
+          <span class="cal-dot" style="left:10%" title="Turin · 29.10"></span>
+          <span class="cal-dot" style="left:45%" title="Mexico City · 20.11"></span>
+          <span class="cal-dot" style="left:80%" title="Corona Capital · 22.11"></span>
+        </div>
+      </div>
+
+      <ul class="shows">
+        <li class="show">
+          <div class="show-date"><span>29</span><em>OCT 2026</em></div>
+          <div class="show-info">
+            <h4>Turin, Italy</h4><p>Lingotto Fiere · 20:00</p>
+            <p class="show-lineup">Yung Lean · Full live set</p><p class="show-price">from €45</p>
+          </div>
+          <a href="#" class="btn btn-ticket">TICKETS</a>
+        </li>
+        <li class="show">
+          <div class="show-date"><span>20</span><em>NOV 2026</em></div>
+          <div class="show-info">
+            <h4>Mexico City, MX</h4><p>Corona Capital 2026 · Autódromo Hermanos Rodríguez</p>
+            <p class="show-lineup">Yung Lean · Festival set</p><p class="show-price">from $80</p>
+          </div>
+          <a href="#" class="btn btn-ticket">TICKETS</a>
+        </li>
+        <li class="show">
+          <div class="show-date"><span>22</span><em>NOV 2026</em></div>
+          <div class="show-info">
+            <h4>Mexico City, MX</h4><p>Corona Capital 2026 · Day 3</p>
+            <p class="show-lineup">Yung Lean & Bladee · Special set</p><p class="show-price">from $80</p>
+          </div>
+          <a href="#" class="btn btn-ticket">TICKETS</a>
+        </li>
+      </ul>
+
+      <h3 class="subhead">Archive</h3>
+      <ul class="shows shows-archive">
+        <li class="show">
+          <div class="show-date"><span>17</span><em>NOV 2025</em></div>
+          <div class="show-info"><h4>Barcelona, ES</h4><p>Hivernacle del Poble Espanyol · Sold out</p></div>
+          <a href="#" class="btn btn-ghost">PHOTOS</a>
+        </li>
+        <li class="show">
+          <div class="show-date"><span>19</span><em>NOV 2025</em></div>
+          <div class="show-info"><h4>Tilburg, NL</h4><p>013 · Sold out</p></div>
+          <a href="#" class="btn btn-ghost">PHOTOS</a>
+        </li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- ============ GALLERY ============ -->
+  <section class="section section-alt" id="gallery">
+    <div class="container">
+      <p class="section-tag"></p>
+      <h2 class="section-title">Images</h2>
+
+      <div class="grid-gallery" id="galleryGrid">
+        <figure class="gal" data-full="https://upload.wikimedia.org/wikipedia/commons/8/8a/Yung_Lean_at_the_Vogue_March_31st%2C_2016_%2825973856650%29_%28cropped%29.jpg">
+          <img src="https://upload.wikimedia.org/wikipedia/commons/8/8a/Yung_Lean_at_the_Vogue_March_31st%2C_2016_%2825973856650%29_%28cropped%29.jpg" alt="Yung Lean portrait" loading="lazy" />
+          <figcaption>Portrait · 2016</figcaption>
+        </figure>
+        <figure class="gal" data-full="https://upload.wikimedia.org/wikipedia/commons/6/64/Yung_Lean%2C_Clout_Festival_2024_03.jpg">
+          <img src="https://upload.wikimedia.org/wikipedia/commons/6/64/Yung_Lean%2C_Clout_Festival_2024_03.jpg" alt="Yung Lean live" loading="lazy" />
+          <figcaption>Live · Clout Festival 2024</figcaption>
+        </figure>
+        <figure class="gal" data-full="https://upload.wikimedia.org/wikipedia/commons/5/57/Yung_Lean_2018.png">
+          <img src="https://upload.wikimedia.org/wikipedia/commons/5/57/Yung_Lean_2018.png" alt="Yung Lean 2018" loading="lazy" />
+          <figcaption>Portrait · 2018</figcaption>
+        </figure>
+        <figure class="gal" data-full="https://upload.wikimedia.org/wikipedia/commons/8/8a/Yung_Lean_at_the_Vogue_March_31st%2C_2016_%2825973856650%29_%28cropped%29.jpg">
+          <img src="https://upload.wikimedia.org/wikipedia/commons/8/8a/Yung_Lean_at_the_Vogue_March_31st%2C_2016_%2825973856650%29_%28cropped%29.jpg" alt="Yung Lean Vogue" loading="lazy" />
+          <figcaption>Vogue · 2016</figcaption>
+        </figure>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ CONTACT ============ -->
+  <section class="section" id="contact">
+    <div class="container">
+      <p class="section-tag"></p>
+      <h2 class="section-title">Transmit</h2>
+
+      <div class="contact-grid">
+        <form class="contact-form" id="contactForm" novalidate>
+          <label><span>Name</span><input type="text" name="name" required minlength="2" /><em class="field-error">Минимум 2 символа</em></label>
+          <label><span>Email</span><input type="email" name="email" required /><em class="field-error">Введите корректный email</em></label>
+          <label><span>Subject</span><input type="text" name="subject" required minlength="3" /><em class="field-error">Укажите тему</em></label>
+          <label><span>Message</span><textarea name="message" rows="5" required minlength="10"></textarea><em class="field-error">Минимум 10 символов</em></label>
+          <button type="submit" class="btn btn-primary">SEND</button>
+          <p class="form-status" id="formStatus" role="status"></p>
+        </form>
+
+        <div class="contact-info">
+          <div class="ci-block"><h4>Management</h4><a href="mailto:management@yunglean.com">management@yunglean.com</a></div>
+          <div class="ci-block"><h4>Booking</h4><a href="mailto:booking@yunglean.com">booking@yunglean.com</a></div>
+          <div class="ci-block"><h4>Social</h4>
+            <div class="socials">
+              <a href="#" aria-label="Instagram">IG</a><a href="#" aria-label="YouTube">YT</a>
+              <a href="#" aria-label="Spotify">SP</a><a href="#" aria-label="SoundCloud">SC</a>
+              <a href="#" aria-label="X">X</a>
+            </div>
+          </div>
+          <div class="ci-block"><h4>Base</h4>
+            <iframe class="map" src="https://www.openstreetmap.org/export/embed.html?bbox=18.00%2C59.28%2C18.15%2C59.36&amp;layer=mapnik&amp;marker=59.3200%2C18.0700" loading="lazy" title="Stockholm"></iframe>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ FOOTER ============ -->
+  <footer class="footer">
+    <div class="container footer-grid">
+      <div>
+        <div class="logo">Y<span>L</span></div>
+        <p class="footer-tag">Sad Boys. Stockholm. Since 2013.</p>
+        <p class="footer-small">© 2013—2026 Yung Lean / Jonatan Leandoer Håstad.<br/>All rights reserved.</p>
+      </div>
+      <div><h5>Sections</h5><a href="#about">About</a><a href="#music">Music</a><a href="#videos">Videos</a><a href="#shows">Shows</a></div>
+      <div><h5>More</h5><a href="#gallery">Gallery</a><a href="#contact">Contact</a><a href="#">Press</a></div>
+      <div><h5>Social</h5>
+        <div class="socials"><a href="#">IG</a><a href="#">YT</a><a href="#">SP</a><a href="#">SC</a><a href="#">X</a></div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>© 2026 Yung Lean. Made in Stockholm. Mixed in the snow.</span>
+      <span>Sad Boys · YEAR0001</span>
+    </div>
+  </footer>
+
+  <!-- ============ MODALS ============ -->
+  <div class="lightbox" id="lightbox" aria-hidden="true" role="dialog" aria-modal="true">
+    <button class="lb-close" aria-label="Close">✕</button>
+    <img id="lbImg" src="" alt="" />
+  </div>
+
+  <div class="video-modal" id="videoModal" aria-hidden="true" role="dialog" aria-modal="true">
+    <button class="vm-close" aria-label="Close">✕</button>
+    <div class="vm-frame"><iframe id="vmFrame" src="" allow="autoplay; encrypted-media; picture-in-picture" allowfullscreen title="Video"></iframe></div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
